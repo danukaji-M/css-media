@@ -1,0 +1,38 @@
+/*Normal Display css*/
+.query{
+    font-size:100px;
+    font-weight:bold;
+    color:red;
+}
+.beginners{
+    font-size:120px;
+    font-weight:bold;
+    color:purple;
+}
+
+/* Mobile Device for css */
+@media only screen and (max-width:786px){
+    .query{
+        font-size:50px;
+        font-weight:bold;
+        color:blue;
+    }
+    .beginners{
+        font-size:60px;
+        font-weight: 900;
+        color:green;
+    }
+}
+/* Tablet Devices For css */
+@media screen and (min-width:787px) and (max-width:900px){
+    .query{
+        font-size:70px;
+        font-weight:bold;
+        color:black;
+    }
+    .beginners{
+        font-size:80px;
+        font-weight: 900;
+        color:orange;
+    }
+}
